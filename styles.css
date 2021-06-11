@@ -61,7 +61,7 @@ section.homecontent a,
 section.homecontent a:link,
 section.homecontent a:visited {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 section.homecontent aside {
   display: block;
@@ -105,14 +105,14 @@ section.functions ul li {
 }
 section.functions a,
 section.functions a:link {
-  color: #1876d4;
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
 }
 section.functions a:visited {
-  color: #ace;
+  color: white;
 }
 section.functions a:hover {
-  color: #1876d4;
+  border: 1px solid #1876d4;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -168,4 +168,5 @@ section.functions a:hover {
   margin: 0 auto;
   padding: 2px 5px;
   width: 90%;
+  text-align: right;
 }
